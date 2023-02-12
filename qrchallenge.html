@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="qrchallenge.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="icon" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>QR challenge</title>
+</head>
+
+<style type="text/css">	
+body{
+	background-color: hsl(212, 45%, 89%);
+	font-size: 15px;
+	font-family: Outfit;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+
+.flex-container{
+	min-width: 300px;
+	max-width: 1440px;
+	height: 500px;
+	margin: 135px auto;
+	display: flex;
+	flex-direction: column;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+	box-shadow: 0px 0px 15px 0px grey;
+	width: 250px;
+}
+
+.img-container{
+	height: 280px;
+	width: 280px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.flex-img{
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
+.item-container {
+	height: 100%;
+	width: 100%;
+}
+
+.flex-item-h1{
+	text-align: center;
+	padding: 0 20px;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: normal;
+	color: hsl(218, 44%, 22%);
+}
+
+.flex-item-p{
+	color: hsl(220, 15%, 55%);
+	padding: 0px 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+@font-face{
+	font-family: Outfit;
+	src: url(Outfit-VariableFont_wght.ttf) format("truetype");
+}
+</style>
+
+<body>
+	
+	<div class="flex-container">	
+		<div class="img-container">
+			<img src="imageqrcode.png" class="flex-img">
+		</div>
+		<div class="item-container">	
+			<h1 class="flex-item-h1">
+			Improve your front-end skills by building projects
+			</h1>
+			<p class="flex-item-p">
+			Scan the QR code to visit frontend Mentor and take your coding skills to the next level
+			</p>
+		</div>
+	</div>
+</body>
+</html>
